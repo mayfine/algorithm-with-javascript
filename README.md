@@ -1,2 +1,7 @@
 # algorithm-with-javascript
-Algorithm study notes
+
+系列文章目录：
+
+[1.冒泡排序]()
+
+
