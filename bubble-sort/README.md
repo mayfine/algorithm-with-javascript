@@ -61,11 +61,11 @@ console.log(bubbleSort(arr)) // [0, 1, 2, 3, 5, 7, 9]
 function bubbleSort(arr) {
     const len = arr.length
     const baseLen = len - 1 // 初始遍历长度
-    let bubbleItemcount = 0
+    let bubbleItemCount = 0
 
     // 若已冒泡的元素个数不等于baseLen，则还存在需比较的元素
-    while (bubbleItemcount != baseLen) {
-        for (let i = 0; i < baseLen - bubbleItemcount; i++) {
+    while (bubbleItemCount != baseLen) {
+        for (let i = 0; i < baseLen - bubbleItemCount; i++) {
             let temp
 
             if (arr[i] > arr[i + 1]) {
@@ -76,7 +76,7 @@ function bubbleSort(arr) {
         }
 
         // 每一轮结束后已冒泡元素+1
-        bubbleItemcount++
+        bubbleItemCount++
     }
 
     return arr
